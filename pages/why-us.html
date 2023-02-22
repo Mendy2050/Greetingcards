@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap css-->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"></noscript>
+    <!--Custom-->
+    <link rel="stylesheet" href="../css/custom.css">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"></noscript>
+    <!--Jquery-->
+    <script defer src="../js/jquery-3.6.1.min.js"></script>
+    <!--Fontawesome-->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /></noscript>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <title>GreetingCards.ie - family-owned company based in Ireland.</title>
+    <!--Meta tags-->
+    <meta name="title" content="GreetingCards.ie - family-owned company based in Ireland">
+    <meta name="description" content="A family business of greeting cards that will help you choose the best gift for your loved ones.">
+    <meta name="keywords" content="About the company, Company history, Advantages Materials of postcards, team, about us">
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand col-4" href="../index.html">
+          <img src="../images/logo.webp" style="width:60px;" alt="">
+          <span>GreetingCards.ie</span>
+        </a>
+        <div class="order-lg-2 nav-btns shoping-card">
+          <button type="button" class="btn position-relative" onclick="location.href='./checkout.html'">
+            <i class="fa fa-shopping-cart"></i>
+            <span id="quantity">0</span>
+          </button>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse col-4" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./catalog.html">Catalog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./find-store.html">Find our store</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Why us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./faq.html">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--end of navbar-->
+    <div class="container why-us">
+      <h1 class="text-center">Why Choose Us?</h1>
+      <div class="row advantages">
+        <div class="col-2"></div>
+        <div class="col-md-4 adv">
+          <div id="adv1" class="back-img"></div>
+        </div>
+        <div class="col-md-4 adv">
+          <p class="subtitle">Great quality at affordable prices</p>
+          <p class="advantage">Select a paper type to best match your stationery: silk paper offers a smooth surface and beautiful finish, glossy paper makes the colours look more vibrant, and brillian white matt paper is ideal for cards without photos.</p>
+        </div>
+        <div class="col-2"></div>
+      </div>
+      <div class="row advantages">
+        <div class="col-2"></div>
+        <div class="col-md-4 adv">
+          <p class="subtitle">Real foil</p>
+          <p class="advantage">The best just got better! Premium cards with real foil to add that "little something extra". Select between gold, silver or copper to best suit your preference.</p>
+        </div>
+        <div class="col-md-4 adv">
+          <div id="adv2" class="back-img"></div>
+        </div>
+        <div class="col-2"></div>
+      </div>
+      <div class="row advantages">
+        <div class="col-2"></div>
+        <div class="col-md-4 adv">
+          <div id="adv3" class="back-img"></div>
+        </div>
+        <div class="col-md-4 adv">
+          <p class="subtitle">Rounded corners</p>
+          <p class="advantage">Its all in the details! Our rounded corner cards are all about small details done in a great way.</p>
+        </div>
+        <div class="col-2"></div>
+      </div>
+    </div>
+
+    <!-- Subscription-->
+    <div id="subscription">
+      <div class="container subscription">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Subscribe to our newsletter</h3>
+          </div>
+          <div class="col-md-8">
+            <form class="needs-validation" novalidate id="subscription-form">
+              <div class="col-lg-7 my-md-2 my-2">
+                <input type="email" class="form-control px-4 border-0 w-100 text-center text-md-left" id="sub-email" placeholder="Your Email" name="email" required>
+                <div class="invalid-feedback">Please, enter your email.</div>
+              </div>
+              <div class="col-lg-5 my-md-2 my-2">
+                <button type="submit" class="btn btn-primary btn-lg border-0 w-100">Subscribe Now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Sucess subscription modal -->
+    <div class="modal fade" id="sub-modal" tabindex="-1" aria-labelledby="removedModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="removedModalLabel">Sucess!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body"> You have subscribed to our newsletter. </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- General form subscription sucess modal -->
+    <div class="modal fade" id="form-modal" tabindex="-1" aria-labelledby="formModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="formModalLabel">Sucess!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body"> The form has been successfully submitted.  The store's employees will contact you in the near future. Thanks! </div>
+        </div>
+      </div>
+    </div>
+
+    <!--footer-->
+    <div class="container">
+      <footer class="row py-5 border-top">
+        <div class="col-md-3 col-6 my-3">
+          <h2 style="font-size: 15px; font-weight: 900;">Our Location</h2>
+          <button class="country-btn" > 
+            <img class="country-img" src="../images/ireland-flag.png" alt="" width="20px" background-color="white">
+             Ireland
+          </button>
+
+          <h2 style="font-size: 15px; font-weight: 900;">Shop With Confidence</h2>
+
+          <button class="star-state" style="background-color: white">4.4
+            <img class="star" src="../images/star.png" alt="" width="100px"  background-color="white">
+          </button>
+
+          <p class="positive" >85% positive</p>
+        </div>
+        <div class="col-md-3 col-6 my-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="./pages/catalog.html" class="nav-link p-0 text-muted">Catalog</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="./pages/about.html" class="nav-link p-0 text-muted">About us</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="./pages/find-store.html" class="nav-link p-0 text-muted">Find our store</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="./pages/why-us.html" class="nav-link p-0 text-muted">Why us</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="./pages/faq.html" class="nav-link p-0 text-muted">FAQ</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-6 my-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="./pages/catalog.html" class="nav-link p-0 text-muted">Catalog</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="./pages/about.html" class="nav-link p-0 text-muted">About us</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="./pages/find-store.html" class="nav-link p-0 text-muted">Find our store</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="./pages/why-us.html" class="nav-link p-0 text-muted">Why us</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="./pages/faq.html" class="nav-link p-0 text-muted">FAQ</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-6 my-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="./pages/catalog.html" class="nav-link p-0 text-muted">Catalog</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="./pages/about.html" class="nav-link p-0 text-muted">About us</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="./pages/find-store.html" class="nav-link p-0 text-muted">Find our store</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="./pages/why-us.html" class="nav-link p-0 text-muted">Why us</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="./pages/faq.html" class="nav-link p-0 text-muted">FAQ</a>
+            </li>
+          </ul>
+        </div>
+
+
+        <hr>
+
+        <div class="col-md-4" style="font-size: 12px; margin-top: 2px;">
+        Christmas.ie © 2022  All rights reserved. 
+    
+        </div>
+    
+        <div class="col-md-4" >
+    
+          <button class="text" style="border: none; background-color: white; font-size: 10px; vertical-align:80px">
+            Contact Us:
+            <img class="icon" src="../images/icon-1.png" alt="">
+            <img class="icon" src="../images/icon-2.png" alt="">
+            <img class="icon" src="../images/icon3.png" alt="">
+            <img class="icon" src="../images/icon4.png" alt="">
+          </button>
+        
+    
+        </div>
+    
+        <div class="col-md-4" >
+        <img class="payment-img" src="../images/payment.png" alt="">
+    
+        </div>
+
+      </footer>
+         </div>
+         <!--end of footer-->
+
+
+
+    <div class="animation" style="background-image: url('../images/snow1.webp');"></div>
+    <div class="animation" style="background-image: url('../images/snow2.webp');"></div>
+    <div class="animation" style="background-image: url('../images/snow3.avif');"></div>
+    <!--Bootstrap script-->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--Js-->
+    <script defer src="../js/script.js"></script>
+  </body>
+</html>
